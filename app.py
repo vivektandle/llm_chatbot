@@ -17,7 +17,7 @@ load_dotenv()
 hugging_face = os.getenv('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')
 open_ai_key = os.getenv('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')
 #
-openai.api_key = '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'
+openai.api_key = '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'
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
